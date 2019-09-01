@@ -3,15 +3,13 @@ package org.ihexon;
 import org.ihexon.jjson.JsonStringer;
 
 public class TestCode {
-
-    private static String res;
-
     private TestCode(){
         JsonStringer json = new JsonStringer();
         json.add ("name", "ihexon");
         json.add ("old", "18");
         json.add ("os", "LINUX");
-        res=json.toString();
+        json.add ("Skill", "C++/C,Java,Linux,Kernel Programming");
+        String res = json.toString ();
         System.out.println(res);
     }
 
