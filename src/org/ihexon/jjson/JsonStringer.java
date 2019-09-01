@@ -1,10 +1,10 @@
 package org.ihexon.jjson;
 public class JsonStringer {
-	
+
 	private StringBuilder json = new StringBuilder(100);
 	private boolean isEmpty = true;
 	
-	private JsonStringer() {
+	public JsonStringer () {
 		this.json.append("{\n ");
 	}
 	
@@ -26,8 +26,5 @@ public class JsonStringer {
 	public String toString() {
 		return this.json.toString()+"\n}\n";
 	}
-	
-	
-	
 
 }
