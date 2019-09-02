@@ -1,5 +1,7 @@
-# JJSON
+# Java Snippet
 
-a simple,stupid, easy using json library write in java
+Just some simple , stupid java snippet code with small hacking
 
-## Public Method
+## all available class now:
+
+`class getHostName` :get system host name.
