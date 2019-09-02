@@ -25,6 +25,8 @@ public class getHostName {
 
 	}
 
+
+	// TestCode
 	public static void main(String[] args) {
 		System.out.println("Host Name:"+new getHostName().host);
 	}
